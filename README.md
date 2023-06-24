@@ -9,17 +9,17 @@ This Python program allows you to interact with the GitHub API using your Person
    ```
    pip install requests base64
    ```
-3. Obtain a GitHub Personal Access Token (API key) by following these steps:
+3. Run the program using the following command:
+   ```
+   python API.py
+   ```
+4. The program will automatically prompt you to enter your GitHub API key (Personal Access Token). Follow these steps to obtain your API key:
    - Go to [GitHub Settings](https://github.com/settings/profile).
    - Click on "Developer settings" in the left sidebar.
    - Click on "Personal access tokens".
    - Generate a new token with the necessary scopes (e.g., repo access for creating and managing repositories).
-4. Create a file named `key` in the same directory as the code.
-5. Open the `key` file and paste your GitHub API key (access token) into it. Save and close the file.
-6. Run the program using the following command:
-   ```
-   python API.py
-   ```
+5. Enter your GitHub API key (Personal Access Token) when prompted by the program.
+6. Once authenticated, you can choose from the available options in the main menu to interact with the GitHub API.
 
 ## Functionality
 
@@ -44,3 +44,5 @@ The GitHub API Python Client provides the following functionalities:
 - Make sure to keep your GitHub API key (access token) confidential. Do not share it with others or commit it to version control systems.
 
 - For more information about the GitHub API and how to generate a Personal Access Token, refer to the [GitHub Developer Documentation](https://docs.github.com/en/rest/).
+
+- Feel free to update the code if you would like to add more functionality to the code.
